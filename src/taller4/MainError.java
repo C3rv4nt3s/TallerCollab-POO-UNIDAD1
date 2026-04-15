@@ -7,6 +7,6 @@ package taller4;
 public class MainError {
     public static void main(String[] args) {
         Persona p = new Persona("Juan");
-        // System.out.println(p.nombre); ❌ ERROR
+    System.out.println(p.nombre); ERROR
     }
 }
