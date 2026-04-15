@@ -4,10 +4,11 @@
  */
 package taller2;
 
-/**
- *
- * @author Acer
- */
 public class EjemploError {
-    
+
+    String nombre;
+
+    public static void mostrar() {
+        // System.out.println(this.nombre); // ERROR (no usar this en static)
+    }
 }

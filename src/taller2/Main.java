@@ -4,10 +4,20 @@
  */
 package taller2;
 
-/**
- *
- * @author Acer
- */
 public class Main {
-    
+    public static void main(String[] args) {
+
+        Producto p1 = new Producto("Laptop", 2500);
+        p1.mostrarProducto();
+
+        System.out.println("----------------");
+
+        Estudiante e1 = new Estudiante();
+        e1.mostrarEstudiante();
+
+        System.out.println("----------------");
+
+        Estudiante e2 = new Estudiante("Alexander", 21);
+        e2.mostrarEstudiante();
+    }
 }

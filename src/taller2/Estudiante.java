@@ -4,10 +4,23 @@
  */
 package taller2;
 
-/**
- *
- * @author Acer
- */
 public class Estudiante {
-    
+    String nombre;
+    int edad;
+
+    // Constructor por defecto
+    public Estudiante() {
+        this("Sin nombre", 0);
+    }
+
+    // Constructor con parámetros
+    public Estudiante(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    public void mostrarEstudiante() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+    }
 }
