@@ -9,6 +9,6 @@ public class EjemploError {
     String nombre;
 
     public static void mostrar() {
-        // System.out.println(nombre); ❌ ERROR
+    System.out.println(nombre); ERROR
     }
 }
