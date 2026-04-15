@@ -41,7 +41,7 @@ public class Main {
 
         CuentaBancaria cuenta = new CuentaBancaria(numero, saldo, tipo);
 
-        // ===== ESTUDIANTE =====
+        //ESTUDIANTE
         System.out.println("\nIngrese nombre del estudiante:");
         String nombre = sc.nextLine();
 
@@ -54,7 +54,7 @@ public class Main {
 
         Estudiante estudiante = new Estudiante(nombre, edad, curso);
 
-        // ===== MOSTRAR DATOS =====
+        //MOSTRAR DATOS
         System.out.println("\n--- RESULTADOS ---");
 
         libro.mostrarLibro();
