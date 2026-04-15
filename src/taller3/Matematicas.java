@@ -4,10 +4,21 @@
  */
 package taller3;
 
-/**
- *
- * @author Acer
- */
 public class Matematicas {
-    
+
+    public static int suma(int a, int b) {
+        return a + b;
+    }
+
+    public static int resta(int a, int b) {
+        return a - b;
+    }
+
+    public static int multiplicacion(int a, int b) {
+        return a * b;
+    }
+
+    public static double division(double a, double b) {
+        return a / b;
+    }
 }

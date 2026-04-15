@@ -4,10 +4,24 @@
  */
 package taller3;
 
-/**
- *
- * @author Acer
- */
 public class Coche {
-    
+    String marca;
+    String modelo;
+
+    static int contadorCoches = 0;
+
+    public Coche(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+        contadorCoches++;
+    }
+
+    public static void mostrarContador() {
+        System.out.println("Cantidad de coches creados: " + contadorCoches);
+    }
+
+    public void mostrarCoche() {
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+    }
 }
