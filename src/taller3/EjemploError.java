@@ -4,10 +4,11 @@
  */
 package taller3;
 
-/**
- *
- * @author Acer
- */
 public class EjemploError {
-    
+
+    String nombre;
+
+    public static void mostrar() {
+        // System.out.println(nombre); ❌ ERROR
+    }
 }
